@@ -111,3 +111,33 @@ section.descricao p {
 .icons-social i {
   line-height: 40px;
 }
+
+.contact-methods {
+  display: flex;
+  position: relative;
+  left: 300px;
+  font-size: 30px;
+  color: #343a40;
+}
+
+form input,
+form button {
+  display: block;
+  width: 320px;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+
+form button {
+  background-color: #262779;
+  color: white;
+  border: none;
+}
+
+form button:hover {
+  background-color: #4042b8;
+}
+
+form input {
+  border: thin 4px;
+}
